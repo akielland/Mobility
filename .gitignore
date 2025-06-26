@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+
+# IDE / editor files
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and debug files
+*.log
+*.out
+*.tmp
+*.bak
+
+# Git and test caches
+.pytest_cache/
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# YOLO training artifacts
+runs/
+weights/
+checkpoints/
+labels/
+*.pt
+*.onnx
+
+# Media and large data
+data/
+outputs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
