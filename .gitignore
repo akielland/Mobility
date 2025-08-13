@@ -1,10 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.py[cod]
+*.pyc
 *$py.class
 
 # Virtual environments
 .venv/
+.venv_mobility/
 
 # IDE / editor files
 .vscode/
@@ -38,6 +41,7 @@ labels/
 # Media and large data
 data/
 outputs/
+video_data/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
